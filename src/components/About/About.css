@@ -27,7 +27,7 @@
 }
 
 .about__me-image:hover {
-  transform: rotate(0);
+  transform: rotate(0deg);
 }
 .about__cards {
   display: grid;

@@ -50,54 +50,8 @@ const Services = () => {
                 graphics, packaging, annual reports and promotional materials.
               </p>
             </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-                We offer a complete graphic design service that covers every
-                possible area of the art. We have wrapped buildings in graphics,
-                created three-dimensional press kits to woo journalists, we have
-                even created a virtual store, complete with virtual stock; but
-                to be a little more down-to-earth, we design what you need –
-                business cards, corporate literature, press kits, exhibition
-                graphics, packaging, annual reports and promotional materials.
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-                We offer a complete graphic design service that covers every
-                possible area of the art. We have wrapped buildings in graphics,
-                created three-dimensional press kits to woo journalists, we have
-                even created a virtual store, complete with virtual stock; but
-                to be a little more down-to-earth, we design what you need –
-                business cards, corporate literature, press kits, exhibition
-                graphics, packaging, annual reports and promotional materials.
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-                We offer a complete graphic design service that covers every
-                possible area of the art. We have wrapped buildings in graphics,
-                created three-dimensional press kits to woo journalists, we have
-                even created a virtual store, complete with virtual stock; but
-                to be a little more down-to-earth, we design what you need –
-                business cards, corporate literature, press kits, exhibition
-                graphics, packaging, annual reports and promotional materials.
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-                We offer a complete graphic design service that covers every
-                possible area of the art. We have wrapped buildings in graphics,
-                created three-dimensional press kits to woo journalists, we have
-                even created a virtual store, complete with virtual stock; but
-                to be a little more down-to-earth, we design what you need –
-                business cards, corporate literature, press kits, exhibition
-                graphics, packaging, annual reports and promotional materials.
-              </p>
-            </li>
+           
+          
           </ul>
         </article>
 
@@ -148,54 +102,8 @@ const Services = () => {
                 graphics, packaging, annual reports and promotional materials.
               </p>
             </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-                We offer a complete graphic design service that covers every
-                possible area of the art. We have wrapped buildings in graphics,
-                created three-dimensional press kits to woo journalists, we have
-                even created a virtual store, complete with virtual stock; but
-                to be a little more down-to-earth, we design what you need –
-                business cards, corporate literature, press kits, exhibition
-                graphics, packaging, annual reports and promotional materials.
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-                We offer a complete graphic design service that covers every
-                possible area of the art. We have wrapped buildings in graphics,
-                created three-dimensional press kits to woo journalists, we have
-                even created a virtual store, complete with virtual stock; but
-                to be a little more down-to-earth, we design what you need –
-                business cards, corporate literature, press kits, exhibition
-                graphics, packaging, annual reports and promotional materials.
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-                We offer a complete graphic design service that covers every
-                possible area of the art. We have wrapped buildings in graphics,
-                created three-dimensional press kits to woo journalists, we have
-                even created a virtual store, complete with virtual stock; but
-                to be a little more down-to-earth, we design what you need –
-                business cards, corporate literature, press kits, exhibition
-                graphics, packaging, annual reports and promotional materials.
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-                We offer a complete graphic design service that covers every
-                possible area of the art. We have wrapped buildings in graphics,
-                created three-dimensional press kits to woo journalists, we have
-                even created a virtual store, complete with virtual stock; but
-                to be a little more down-to-earth, we design what you need –
-                business cards, corporate literature, press kits, exhibition
-                graphics, packaging, annual reports and promotional materials.
-              </p>
-            </li>
+           
+           
           </ul>
         </article>
 
@@ -225,30 +133,7 @@ const Services = () => {
               Are you looking to make your website's content easier to manage? Various web development companies use content management systems as a customized web application for managing their websites. XDezo Technologies provides enhanced CMS support with web integration of multiple CMS platforms including transactional, e-commerce, content-based CMS.
               </p>
             </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-              Are you looking to make your website's content easier to manage? Various web development companies use content management systems as a customized web application for managing their websites. XDezo Technologies provides enhanced CMS support with web integration of multiple CMS platforms including transactional, e-commerce, content-based CMS.
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-              Are you looking to make your website's content easier to manage? Various web development companies use content management systems as a customized web application for managing their websites. XDezo Technologies provides enhanced CMS support with web integration of multiple CMS platforms including transactional, e-commerce, content-based CMS.
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-              Are you looking to make your website's content easier to manage? Various web development companies use content management systems as a customized web application for managing their websites. XDezo Technologies provides enhanced CMS support with web integration of multiple CMS platforms including transactional, e-commerce, content-based CMS.
-              </p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>
-              Are you looking to make your website's content easier to manage? Various web development companies use content management systems as a customized web application for managing their websites. XDezo Technologies provides enhanced CMS support with web integration of multiple CMS platforms including transactional, e-commerce, content-based CMS.
-              </p>
-            </li>
+           
           </ul>
         </article>
       </div>

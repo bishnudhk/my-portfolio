@@ -33,7 +33,7 @@
     padding: 2rem;
 }
 .service__list li{
-    display: flexs;
+    display: flex;
     gap: 1rem;
     margin-bottom: 0.8rem;
 
@@ -48,3 +48,23 @@
 .service__list-icon p{
  font-size: 0.9rem; 
 }
+/* .....media queries (medium Devices ) ....... */
+@media screen and (max-width: 1024px){
+    .services__container{
+        grid-template-columns: 1fr 1fr;
+        gap :2rem;
+    }
+    .service{
+        height:auto;
+    }
+
+    }
+    
+    /*............ media queries (small devices)............. */
+    @media screen and (max-width: 600px){
+        .services__container{
+          grid-template-columns: 1fr;
+          gap: 1.5rem;  
+        }   
+
+    }
