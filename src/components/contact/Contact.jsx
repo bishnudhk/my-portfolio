@@ -1,25 +1,41 @@
-import React from "react";
-import "./Contact.css";
+import React, { useState } from "react";
+import "./contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsMessenger } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 // from emailjs.com
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    textValue: "",
+    email: "",
+    message: "",
+  });
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs.sendForm(
       "service_p21oh1c",
       "template_i3mzv7q",
-      form.current,
+      e.target,
       "BYV8Fkmt4mdyj9bzQ"
-    )
-    e.target.reset();
+    );
+    setFormData({
+      textValue: " ",
+      email: " ",
+      message: "",
+    });
   };
 
   return (
@@ -57,20 +73,31 @@ const Contact = () => {
           </article>
         </div>
         {/* end of contact option */}
-        <form useRef="form" onSubmit={sendEmail} autoComplete="off">
+        <form useRef="form" onSubmit={handleSubmit} autoComplete="off">
           <input
             type="text"
             name="name"
             placeholder="Your Full Name"
+            value={formData.name}
+            onChange={handleInputChange}
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
+            placeholder="Your Email"
+            required
+          />
           <textarea
+            id="message"
             name="message"
-            id="comment"
             cols="30"
             rows="10"
+            value={formData.message}
             placeholder="Your Message"
+            onChange={handleInputChange}
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">
